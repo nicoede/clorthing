@@ -1,0 +1,813 @@
+[24-Dec-2017 06:44:30 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/pages/login.php on line 1
+[24-Dec-2017 06:44:30 UTC] PHP Stack trace:
+[24-Dec-2017 06:44:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:44:30 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/pages/login.php on line 1
+[24-Dec-2017 06:44:30 UTC] PHP Stack trace:
+[24-Dec-2017 06:44:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:44:52 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:44:52 UTC] PHP Stack trace:
+[24-Dec-2017 06:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:44:52 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:1
+[24-Dec-2017 06:44:52 UTC] PHP   3. include() /home/ubuntu/workspace/includes/header.php:20
+[24-Dec-2017 06:44:52 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:44:52 UTC] PHP Stack trace:
+[24-Dec-2017 06:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:44:52 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:1
+[24-Dec-2017 06:44:52 UTC] PHP   3. include() /home/ubuntu/workspace/includes/header.php:20
+[24-Dec-2017 06:44:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 06:44:52 UTC] PHP Stack trace:
+[24-Dec-2017 06:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:44:52 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:1
+[24-Dec-2017 06:44:52 UTC] PHP   3. include() /home/ubuntu/workspace/includes/header.php:20
+[24-Dec-2017 06:44:52 UTC] PHP   4. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 06:44:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 06:44:52 UTC] PHP Stack trace:
+[24-Dec-2017 06:44:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:44:52 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:1
+[24-Dec-2017 06:44:52 UTC] PHP   3. include() /home/ubuntu/workspace/includes/header.php:20
+[24-Dec-2017 06:44:52 UTC] PHP   4. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 06:46:03 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:46:03 UTC] PHP Stack trace:
+[24-Dec-2017 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:46:03 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:46:03 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:46:03 UTC] PHP Stack trace:
+[24-Dec-2017 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:46:03 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:46:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 06:46:03 UTC] PHP Stack trace:
+[24-Dec-2017 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:46:03 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:46:03 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 06:46:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 06:46:03 UTC] PHP Stack trace:
+[24-Dec-2017 06:46:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:46:03 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:46:03 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 06:47:47 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:47:47 UTC] PHP Stack trace:
+[24-Dec-2017 06:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:47:47 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:47:47 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:47:47 UTC] PHP Stack trace:
+[24-Dec-2017 06:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:47:47 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:47:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 06:47:47 UTC] PHP Stack trace:
+[24-Dec-2017 06:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:47:47 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:47:47 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 06:47:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 06:47:47 UTC] PHP Stack trace:
+[24-Dec-2017 06:47:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:47:47 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:47:47 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 06:48:40 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:48:40 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:40 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:40 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:48:40 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:40 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 06:48:40 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:40 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:40 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 06:48:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 06:48:40 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:40 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:40 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 06:48:51 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:48:51 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:51 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:51 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:48:51 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:51 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 06:48:51 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:51 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:51 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 06:48:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 06:48:51 UTC] PHP Stack trace:
+[24-Dec-2017 06:48:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:48:51 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:48:51 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 06:51:17 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 06:51:17 UTC] PHP Stack trace:
+[24-Dec-2017 06:51:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:51:17 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:51:17 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 06:51:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 06:51:17 UTC] PHP Stack trace:
+[24-Dec-2017 06:51:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:51:17 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:51:17 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 06:52:01 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:52:01 UTC] PHP Stack trace:
+[24-Dec-2017 06:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:52:01 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:52:01 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 06:52:01 UTC] PHP Stack trace:
+[24-Dec-2017 06:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:52:01 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:52:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 06:52:01 UTC] PHP Stack trace:
+[24-Dec-2017 06:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:52:01 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:52:01 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 06:52:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 06:52:01 UTC] PHP Stack trace:
+[24-Dec-2017 06:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 06:52:01 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 06:52:01 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 10:04:52 UTC] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/pages/login.php on line 2
+[24-Dec-2017 10:04:52 UTC] PHP Stack trace:
+[24-Dec-2017 10:04:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:04:52 UTC] PHP Warning:  include(): Failed opening 'includes/navigation.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/pages/login.php on line 2
+[24-Dec-2017 10:04:52 UTC] PHP Stack trace:
+[24-Dec-2017 10:04:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:04 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 10:05:04 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:04 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 10:05:04 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[24-Dec-2017 10:05:04 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:04 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 10:05:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[24-Dec-2017 10:05:04 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:04 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 10:05:04 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[24-Dec-2017 10:05:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[24-Dec-2017 10:05:04 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:04 UTC] PHP   2. include() /home/ubuntu/workspace/pages/login.php:2
+[24-Dec-2017 10:05:04 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[24-Dec-2017 10:05:50 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/pages/login.php on line 2
+[24-Dec-2017 10:05:50 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:50 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/pages/login.php on line 2
+[24-Dec-2017 10:05:50 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/pages/login.php on line 17
+[24-Dec-2017 10:05:50 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:50 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/pages/login.php:17
+[24-Dec-2017 10:05:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/pages/login.php on line 18
+[24-Dec-2017 10:05:50 UTC] PHP Stack trace:
+[24-Dec-2017 10:05:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/pages/login.php:0
+[24-Dec-2017 10:05:50 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/pages/login.php:18
+[25-Dec-2017 00:13:51 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:13:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:13:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:13:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:13:51 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:13:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:13:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:13:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:13:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[25-Dec-2017 00:13:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:13:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:13:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:13:51 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[25-Dec-2017 00:13:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[25-Dec-2017 00:13:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:13:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:13:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:13:51 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[25-Dec-2017 00:14:37 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:14:37 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:37 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:37 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:14:37 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:37 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[25-Dec-2017 00:14:37 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:37 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:37 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[25-Dec-2017 00:14:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[25-Dec-2017 00:14:37 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:37 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:37 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[25-Dec-2017 00:14:37 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/functions.php on line 1
+[25-Dec-2017 00:14:37 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:37 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:3
+[25-Dec-2017 00:14:37 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/functions.php on line 1
+[25-Dec-2017 00:14:37 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:37 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:3
+[25-Dec-2017 00:14:53 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:14:53 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:53 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:53 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:14:53 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:53 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[25-Dec-2017 00:14:53 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:53 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:53 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[25-Dec-2017 00:14:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[25-Dec-2017 00:14:53 UTC] PHP Stack trace:
+[25-Dec-2017 00:14:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:14:53 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:14:53 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[25-Dec-2017 00:15:21 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:15:21 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:21 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:15:21 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[25-Dec-2017 00:15:21 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:21 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[25-Dec-2017 00:15:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[25-Dec-2017 00:15:21 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:21 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[25-Dec-2017 00:15:21 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/men_accessories.php on line 3
+[25-Dec-2017 00:15:21 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:21 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/men_accessories.php on line 3
+[25-Dec-2017 00:15:21 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:47 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:15:47 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:47 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:47 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:15:47 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:47 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[25-Dec-2017 00:15:47 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:47 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:47 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[25-Dec-2017 00:15:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[25-Dec-2017 00:15:47 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:47 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:15:47 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[25-Dec-2017 00:15:47 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/men_accessories.php on line 3
+[25-Dec-2017 00:15:47 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:15:47 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/men_accessories.php on line 3
+[25-Dec-2017 00:15:47 UTC] PHP Stack trace:
+[25-Dec-2017 00:15:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:16:51 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:16:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:16:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:16:51 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[25-Dec-2017 00:16:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:16:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:16:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[25-Dec-2017 00:16:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:16:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:16:51 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[25-Dec-2017 00:16:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[25-Dec-2017 00:16:51 UTC] PHP Stack trace:
+[25-Dec-2017 00:16:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:16:51 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:2
+[25-Dec-2017 00:16:51 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[25-Dec-2017 00:17:45 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/men_accessories.php on line 2
+[25-Dec-2017 00:17:45 UTC] PHP Stack trace:
+[25-Dec-2017 00:17:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:17:45 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/men_accessories.php on line 2
+[25-Dec-2017 00:17:45 UTC] PHP Stack trace:
+[25-Dec-2017 00:17:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:17:45 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 17
+[25-Dec-2017 00:17:45 UTC] PHP Stack trace:
+[25-Dec-2017 00:17:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:17:45 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/includes/men_accessories.php:17
+[25-Dec-2017 00:17:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 18
+[25-Dec-2017 00:17:45 UTC] PHP Stack trace:
+[25-Dec-2017 00:17:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 00:17:45 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:18
+[25-Dec-2017 05:32:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 66
+[25-Dec-2017 05:32:37 UTC] PHP Stack trace:
+[25-Dec-2017 05:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 05:32:37 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:66
+[25-Dec-2017 05:32:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 99
+[25-Dec-2017 05:32:37 UTC] PHP Stack trace:
+[25-Dec-2017 05:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 05:32:37 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:99
+[25-Dec-2017 05:34:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 66
+[25-Dec-2017 05:34:21 UTC] PHP Stack trace:
+[25-Dec-2017 05:34:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 05:34:21 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:66
+[25-Dec-2017 05:34:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 99
+[25-Dec-2017 05:34:21 UTC] PHP Stack trace:
+[25-Dec-2017 05:34:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 05:34:21 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:99
+[25-Dec-2017 05:34:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/men_accessories.php on line 66
+[25-Dec-2017 05:34:47 UTC] PHP Stack trace:
+[25-Dec-2017 05:34:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 05:34:47 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:66
+[25-Dec-2017 05:34:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 99
+[25-Dec-2017 05:34:47 UTC] PHP Stack trace:
+[25-Dec-2017 05:34:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 05:34:47 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:99
+[25-Dec-2017 05:35:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/men_accessories.php on line 99
+[25-Dec-2017 05:35:28 UTC] PHP Stack trace:
+[25-Dec-2017 05:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[25-Dec-2017 05:35:28 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/men_accessories.php:99
+[25-Dec-2017 08:08:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/women_accessories.php on line 65
+[25-Dec-2017 08:08:05 UTC] PHP Stack trace:
+[25-Dec-2017 08:08:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/women_accessories.php:0
+[25-Dec-2017 08:08:05 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/includes/women_accessories.php:65
+[25-Dec-2017 08:09:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/women_accessories.php on line 65
+[25-Dec-2017 08:09:07 UTC] PHP Stack trace:
+[25-Dec-2017 08:09:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/women_accessories.php:0
+[25-Dec-2017 08:09:07 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/includes/women_accessories.php:65
+[26-Dec-2017 00:14:16 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/index.php on line 1
+[26-Dec-2017 00:14:16 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:16 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/index.php on line 1
+[26-Dec-2017 00:14:16 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:16 UTC] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/admin/index.php on line 2
+[26-Dec-2017 00:14:16 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:16 UTC] PHP Warning:  include(): Failed opening 'includes/navigation.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/admin/index.php on line 2
+[26-Dec-2017 00:14:16 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:30 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation.php on line 1
+[26-Dec-2017 00:14:30 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:30 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[26-Dec-2017 00:14:30 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation.php on line 1
+[26-Dec-2017 00:14:30 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:30 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[26-Dec-2017 00:14:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/includes/navigation.php on line 16
+[26-Dec-2017 00:14:30 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:30 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[26-Dec-2017 00:14:30 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/includes/navigation.php:16
+[26-Dec-2017 00:14:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/includes/navigation.php on line 17
+[26-Dec-2017 00:14:30 UTC] PHP Stack trace:
+[26-Dec-2017 00:14:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:14:30 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[26-Dec-2017 00:14:30 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/navigation.php:17
+[26-Dec-2017 00:15:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/admin/index.php on line 16
+[26-Dec-2017 00:15:24 UTC] PHP Stack trace:
+[26-Dec-2017 00:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:15:24 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/admin/index.php:16
+[26-Dec-2017 00:15:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/admin/index.php on line 17
+[26-Dec-2017 00:15:24 UTC] PHP Stack trace:
+[26-Dec-2017 00:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[26-Dec-2017 00:15:24 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/index.php:17
+[27-Dec-2017 00:49:01 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/men_jackets.php on line 162
+[27-Dec-2017 00:49:02 UTC] PHP Stack trace:
+[27-Dec-2017 00:49:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_jackets.php:0
+[27-Dec-2017 00:49:02 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/men_jackets.php on line 162
+[27-Dec-2017 00:49:02 UTC] PHP Stack trace:
+[27-Dec-2017 00:49:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_jackets.php:0
+[29-Dec-2017 23:11:07 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/men_accessories.php on line 162
+[29-Dec-2017 23:11:07 UTC] PHP Stack trace:
+[29-Dec-2017 23:11:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[29-Dec-2017 23:11:07 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/men_accessories.php on line 162
+[29-Dec-2017 23:11:07 UTC] PHP Stack trace:
+[29-Dec-2017 23:11:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[29-Dec-2017 23:46:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/admin/includes/admin_navigation.php on line 51
+[29-Dec-2017 23:46:50 UTC] PHP Stack trace:
+[29-Dec-2017 23:46:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[30-Dec-2017 06:20:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/includes/men_accessories.php on line 187
+[31-Dec-2017 01:31:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/details_modal.php on line 15
+[31-Dec-2017 01:31:00 UTC] PHP Stack trace:
+[31-Dec-2017 01:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:31:00 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/details_modal.php:15
+[31-Dec-2017 01:31:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/includes/details_modal.php on line 53
+[31-Dec-2017 01:31:00 UTC] PHP Stack trace:
+[31-Dec-2017 01:31:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:31:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/details_modal.php on line 15
+[31-Dec-2017 01:31:14 UTC] PHP Stack trace:
+[31-Dec-2017 01:31:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:31:14 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/details_modal.php:15
+[31-Dec-2017 01:31:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/includes/details_modal.php on line 53
+[31-Dec-2017 01:31:14 UTC] PHP Stack trace:
+[31-Dec-2017 01:31:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:32:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/details_modal.php on line 13
+[31-Dec-2017 01:32:08 UTC] PHP Stack trace:
+[31-Dec-2017 01:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:32:08 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/details_modal.php:13
+[31-Dec-2017 01:32:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/includes/details_modal.php on line 51
+[31-Dec-2017 01:32:08 UTC] PHP Stack trace:
+[31-Dec-2017 01:32:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:33:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/includes/details_modal.php on line 13
+[31-Dec-2017 01:33:04 UTC] PHP Stack trace:
+[31-Dec-2017 01:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:33:04 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/includes/details_modal.php:13
+[31-Dec-2017 01:33:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/includes/details_modal.php on line 51
+[31-Dec-2017 01:33:04 UTC] PHP Stack trace:
+[31-Dec-2017 01:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:33:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/includes/details_modal.php on line 51
+[31-Dec-2017 01:33:32 UTC] PHP Stack trace:
+[31-Dec-2017 01:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[31-Dec-2017 01:58:15 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/navigation_inc.php on line 2
+[31-Dec-2017 01:58:15 UTC] PHP Stack trace:
+[31-Dec-2017 01:58:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[31-Dec-2017 01:58:15 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:4
+[31-Dec-2017 01:58:15 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/navigation_inc.php on line 2
+[31-Dec-2017 01:58:15 UTC] PHP Stack trace:
+[31-Dec-2017 01:58:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/men_accessories.php:0
+[31-Dec-2017 01:58:15 UTC] PHP   2. include() /home/ubuntu/workspace/includes/men_accessories.php:4
+[01-Jan-2018 03:49:38 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:49:38 UTC] PHP Stack trace:
+[01-Jan-2018 03:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:49:38 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 03:49:38 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:49:38 UTC] PHP Stack trace:
+[01-Jan-2018 03:49:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:49:38 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 03:50:32 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:50:32 UTC] PHP Stack trace:
+[01-Jan-2018 03:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:50:32 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 03:50:32 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:50:32 UTC] PHP Stack trace:
+[01-Jan-2018 03:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:50:32 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 03:52:59 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:52:59 UTC] PHP Stack trace:
+[01-Jan-2018 03:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:52:59 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 03:52:59 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:52:59 UTC] PHP Stack trace:
+[01-Jan-2018 03:52:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:52:59 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 03:58:16 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:58:16 UTC] PHP Stack trace:
+[01-Jan-2018 03:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:58:16 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 03:58:16 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 03:58:16 UTC] PHP Stack trace:
+[01-Jan-2018 03:58:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 03:58:16 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:00:03 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:00:03 UTC] PHP Stack trace:
+[01-Jan-2018 04:00:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:00:03 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:00:03 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:00:03 UTC] PHP Stack trace:
+[01-Jan-2018 04:00:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:00:03 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:00:21 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:00:21 UTC] PHP Stack trace:
+[01-Jan-2018 04:00:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:00:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:00:21 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:00:21 UTC] PHP Stack trace:
+[01-Jan-2018 04:00:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:00:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:00:45 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:00:45 UTC] PHP Stack trace:
+[01-Jan-2018 04:00:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:00:45 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:00:45 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:00:45 UTC] PHP Stack trace:
+[01-Jan-2018 04:00:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:00:45 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:01:39 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:01:39 UTC] PHP Stack trace:
+[01-Jan-2018 04:01:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:01:39 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:01:39 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:01:39 UTC] PHP Stack trace:
+[01-Jan-2018 04:01:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:01:39 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:02:57 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:02:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:02:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:02:57 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:02:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:02:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:02:57 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:02:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:02:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:02:57 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:02:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:02:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:02:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:02:58 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:02:58 UTC] PHP Stack trace:
+[01-Jan-2018 04:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:02:58 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:02:58 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:02:58 UTC] PHP Stack trace:
+[01-Jan-2018 04:02:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:02:58 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:03:06 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:03:06 UTC] PHP Stack trace:
+[01-Jan-2018 04:03:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:03:06 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:03:06 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:03:06 UTC] PHP Stack trace:
+[01-Jan-2018 04:03:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:03:06 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:03:59 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:03:59 UTC] PHP Stack trace:
+[01-Jan-2018 04:03:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:03:59 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:03:59 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:03:59 UTC] PHP Stack trace:
+[01-Jan-2018 04:03:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:03:59 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:04 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:04 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:04 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:04 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:04 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:04 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:06 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:06 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:06 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:06 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:06 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:06 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:12 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:12 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:12 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:12 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:12 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:12 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:14 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:14 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:14 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:14 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:14 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:14 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:16 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:16 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:16 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:16 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:16 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:16 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:19 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:19 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:19 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:19 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:19 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:19 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:22 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:22 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:22 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:22 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:22 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:22 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:25 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:25 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:25 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:25 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:25 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:25 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:28 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:28 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:28 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:28 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:28 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:28 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:30 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:30 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:30 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:30 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:30 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:30 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:32 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:32 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:32 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:32 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:32 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:32 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:35 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:35 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:35 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:04:35 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:04:35 UTC] PHP Stack trace:
+[01-Jan-2018 04:04:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:04:35 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:06:57 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:06:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:06:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:06:57 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:06:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:06:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:06:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:07:15 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:07:15 UTC] PHP Stack trace:
+[01-Jan-2018 04:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:07:15 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:07:15 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:07:15 UTC] PHP Stack trace:
+[01-Jan-2018 04:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:07:15 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:08:22 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:08:22 UTC] PHP Stack trace:
+[01-Jan-2018 04:08:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:08:22 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:08:22 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:08:22 UTC] PHP Stack trace:
+[01-Jan-2018 04:08:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:08:22 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:09:28 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:09:28 UTC] PHP Stack trace:
+[01-Jan-2018 04:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:09:28 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:09:28 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:09:28 UTC] PHP Stack trace:
+[01-Jan-2018 04:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:09:28 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:10:16 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:10:16 UTC] PHP Stack trace:
+[01-Jan-2018 04:10:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:10:16 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:10:16 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:10:16 UTC] PHP Stack trace:
+[01-Jan-2018 04:10:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:10:16 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:10:30 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:10:30 UTC] PHP Stack trace:
+[01-Jan-2018 04:10:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:10:30 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:10:30 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:10:30 UTC] PHP Stack trace:
+[01-Jan-2018 04:10:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:10:30 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:17:43 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:17:43 UTC] PHP Stack trace:
+[01-Jan-2018 04:17:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:17:43 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:17:43 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:17:43 UTC] PHP Stack trace:
+[01-Jan-2018 04:17:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:17:43 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:52:43 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:52:43 UTC] PHP Stack trace:
+[01-Jan-2018 04:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:52:43 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:52:43 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:52:43 UTC] PHP Stack trace:
+[01-Jan-2018 04:52:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:52:43 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:54:43 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:54:43 UTC] PHP Stack trace:
+[01-Jan-2018 04:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:54:43 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:54:43 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:54:43 UTC] PHP Stack trace:
+[01-Jan-2018 04:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:54:43 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:58:55 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:58:55 UTC] PHP Stack trace:
+[01-Jan-2018 04:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:58:55 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:58:55 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:58:55 UTC] PHP Stack trace:
+[01-Jan-2018 04:58:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:58:55 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:58:57 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:58:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:58:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:58:57 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:58:57 UTC] PHP Stack trace:
+[01-Jan-2018 04:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:58:57 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:59:32 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:59:32 UTC] PHP Stack trace:
+[01-Jan-2018 04:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:59:32 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 04:59:32 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 04:59:32 UTC] PHP Stack trace:
+[01-Jan-2018 04:59:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 04:59:32 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:00:35 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:00:35 UTC] PHP Stack trace:
+[01-Jan-2018 05:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:00:35 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:00:35 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:00:35 UTC] PHP Stack trace:
+[01-Jan-2018 05:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:00:35 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:01:21 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:01:21 UTC] PHP Stack trace:
+[01-Jan-2018 05:01:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:01:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:01:21 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:01:21 UTC] PHP Stack trace:
+[01-Jan-2018 05:01:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:01:21 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:01:24 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:01:24 UTC] PHP Stack trace:
+[01-Jan-2018 05:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:01:24 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:01:24 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:01:24 UTC] PHP Stack trace:
+[01-Jan-2018 05:01:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:01:24 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:02:23 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:02:23 UTC] PHP Stack trace:
+[01-Jan-2018 05:02:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:02:23 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:02:23 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:02:23 UTC] PHP Stack trace:
+[01-Jan-2018 05:02:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:02:23 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:02:54 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:02:54 UTC] PHP Stack trace:
+[01-Jan-2018 05:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:02:54 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:02:54 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:02:54 UTC] PHP Stack trace:
+[01-Jan-2018 05:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 05:02:54 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 05:12:43 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:12:43 UTC] PHP Stack trace:
+[01-Jan-2018 05:12:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[01-Jan-2018 05:12:43 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[01-Jan-2018 05:12:43 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:12:43 UTC] PHP Stack trace:
+[01-Jan-2018 05:12:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[01-Jan-2018 05:12:43 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[01-Jan-2018 05:13:04 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:13:04 UTC] PHP Stack trace:
+[01-Jan-2018 05:13:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[01-Jan-2018 05:13:04 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[01-Jan-2018 05:13:04 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:13:04 UTC] PHP Stack trace:
+[01-Jan-2018 05:13:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[01-Jan-2018 05:13:04 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[01-Jan-2018 05:13:41 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:13:41 UTC] PHP Stack trace:
+[01-Jan-2018 05:13:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[01-Jan-2018 05:13:41 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[01-Jan-2018 05:13:41 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 05:13:41 UTC] PHP Stack trace:
+[01-Jan-2018 05:13:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/index.php:0
+[01-Jan-2018 05:13:41 UTC] PHP   2. include() /home/ubuntu/workspace/admin/index.php:2
+[01-Jan-2018 06:45:23 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 06:45:23 UTC] PHP Stack trace:
+[01-Jan-2018 06:45:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 06:45:23 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 06:45:23 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 2
+[01-Jan-2018 06:45:23 UTC] PHP Stack trace:
+[01-Jan-2018 06:45:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 06:45:23 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:2
+[01-Jan-2018 07:09:10 UTC] PHP Warning:  include(core/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/cfg.php on line 2
+[01-Jan-2018 07:09:10 UTC] PHP Stack trace:
+[01-Jan-2018 07:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 07:09:10 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:3
+[01-Jan-2018 07:09:10 UTC] PHP Warning:  include(): Failed opening 'core/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/cfg.php on line 2
+[01-Jan-2018 07:09:10 UTC] PHP Stack trace:
+[01-Jan-2018 07:09:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/includes/details_modal.php:0
+[01-Jan-2018 07:09:10 UTC] PHP   2. include() /home/ubuntu/workspace/includes/details_modal.php:3
