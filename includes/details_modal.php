@@ -95,14 +95,14 @@ $size_array = explode(',', $size_string);
         return;
       }else{
         jQuery.ajax({
-        	url : '/admin/parsers/add_cart.php',
+        	//url : '/admin/parsers/add_cart.php',
         	method : 'post',
         	data : data,
         	success : function(){
         	    location.reload();
         	},
         	error : function(){
-        		alert('Something Went Wrong!');
+        		alert('This function will be available soon! ');
   	      }
         });
       }
