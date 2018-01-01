@@ -1,4 +1,5 @@
 <?php include "includes/header.php" ;?>
+<?php include "includes/navigation.php"; ?>
 <?php include "core/init.php"; 
 include "includes/cfg.php";
 ?>
