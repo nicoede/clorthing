@@ -41,17 +41,17 @@ if(isset($_POST["forgot-password"])){
         <div class="row">
             <div class="col-xs-6 col-xs-offset-3">
                 <div class="form-wrap">
-                <h1>Forgot your Password?</h1>
-                <h3>Which of the following do you remember?</h3>
+                <h1 style="margin-top: 100px;">Forgot your Password?</h1>
+                <h3 style="margin-bottom: 50px;">Which of the following do you remember?</h3>
                     <form role="form" action="" method="post" id="login-form" autocomplete="off">
                         <div class="form-group">
-                            <label for="username" class="sr-only">Username</label>
-                            <input type="text" name="username" id="username" class="form-control" placeholder="Username" style="margin-bottom:13px;">
+                            <label for="username">Username:</label>
+                            <input type="text" name="username" id="username" class="form-control" style="margin-bottom:13px;">
                             <b>Or</b>
                         </div>
                          <div class="form-group">
-                            <label for="email" class="sr-only">Email</label>
-                            <input type="email" name="user_email" id="user_email" class="form-control" placeholder="somebody@example.com">
+                            <label for="email">Email:</label>
+                            <input type="email" name="user_email" id="user_email" class="form-control">
                         </div>            
                         <input type="submit" name="forgot-password" id="btn-login" class="btn btn-custom btn-lg btn-block checkEmail" style="background-color: black; color:white;" value="Submit">
                     </form>
