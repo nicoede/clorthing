@@ -433,40 +433,44 @@ function show_all_users(){
         $user_image = $row['user_image'];
         $user_date = $row['user_date'];
         
-        echo "<tr>";
+        if($username !== $_SESSION['username']){
+          echo "<tr>";
+            
+            ?>
+            <?php
+            
+            echo "<td>{$user_id}</td>";
+            echo "<td>{$username}</td>";
+            echo "<td>{$user_firstname}</td>";
+            echo "<td>{$user_lastname}</td>";
+            echo "<td>{$user_email}</td>";
+            echo "<td>{$user_role}</td>";
+            echo "<td><img height='50' src='https://s3-ap-southeast-1.amazonaws.com/nicoedeimages/clothing/{$user_image}' alt='image'></td>";
+            echo "<td>{$user_date}</td>";
+            
+            if($user_role == 'Admin'){
+              echo "<td><a href='users.php?edit={$user_id}'>Turn to Subscriber</a></td>";
+            }
+            
+            if($user_role == 'Subscriber'){
+              echo "<td><a href='users.php?edit={$user_id}'>Turn to Admin</a></td>";
+            }
+          echo "</tr>";
+        }else{
           
-          ?>
-          <?php
-          
-          echo "<td>{$user_id}</td>";
-          echo "<td>{$username}</td>";
-          echo "<td>{$user_firstname}</td>";
-          echo "<td>{$user_lastname}</td>";
-          echo "<td>{$user_email}</td>";
-          echo "<td>{$user_role}</td>";
-          echo "<td><img height='50' src='https://s3-ap-southeast-1.amazonaws.com/nicoedeimages/clothing/{$user_image}' alt='image'></td>";
-          echo "<td>{$user_date}</td>";
-          
-          if($user_role == 'Admin'){
-            echo "<td><a href='users.php?edit={$user_id}'>Turn to Subscriber</a></td>";
-          }
-          
-          if($user_role == 'Subscriber'){
-            echo "<td><a href='users.php?edit={$user_id}'>Turn to Admin</a></td>";
-          }
-        echo "</tr>";
+        }
       }
       return 1;
     }else{
-      return 2;
+      echo "<h1 class='text-center'>No users are currently subscribed</h1>";
     }
    
 }
 
 //=======================================================
 
-function update_user($user_id){
-  include "../../s3/init.php";
+function update_user($user_id, $user_image_1){
+  include "../s3/init_adm.php";
   global $connection;
   if(isset($_POST['update_profile'])){
       $username = $_POST['username'];
@@ -476,7 +480,7 @@ function update_user($user_id){
           $count = mysqli_num_rows($user_query_result);
       }
       
-      if($count == 0){
+      if($count < 2){
         $file = $_FILES['image'];
   
         $name = $file['name'];
@@ -516,7 +520,7 @@ function update_user($user_id){
         }else{
           $user_image = $user_image_1;
         }
-
+      
       $user_firstname = $_POST['user_firstname'];
       $user_lastname = $_POST['user_lastname'];
       $user_email = $_POST['email'];
@@ -540,15 +544,109 @@ function update_user($user_id){
           confirm($update_sub_user);
           
           $_SESSION['username'] = $username;
-          $return = 1;
+          sleep(3);
+          return 1;
       }else{
-          $return = 2;
+          sleep(3);
+          return 2;
       }
     }else{
+      sleep(3);
       return 3;
     }
   }
 }
+
+//=======================================================
+
+function update_user_adm($user_id, $user_image_1){
+  include "../../s3/init.php";
+  global $connection;
+  if(isset($_POST['update_profile'])){
+      $username = $_POST['username'];
+      if(!empty($username)){
+          $user_query = "SELECT username FROM users WHERE username = '{$username}'";
+          $user_query_result = mysqli_query($connection, $user_query);
+          $count = mysqli_num_rows($user_query_result);
+      }
+      
+      if($count < 2){
+        $file = $_FILES['image'];
+  
+        $name = $file['name'];
+        if($name !== ''){
+          $file = $_FILES['image'];
+      
+          $name = $file['name'];
+          $tmp_name = $file['tmp_name'];
+          
+          $ext = explode('.', $name);
+          $ext = strtolower(end($ext));
+          
+          $key = md5(uniqid());
+          
+          $temp_file_name = "{$key}.{$ext}";
+          
+          $temp_file_path = "../clothing/{$temp_file_name}";
+          
+          move_uploaded_file($tmp_name, $temp_file_path);
+          
+          try {
+            // Upload data.
+            $result = $s3->putObject(array(
+               'Bucket'=> $config['s3']['bucket'],
+                'Key'   => "clothing/{$name}",
+                'Body'  => fopen($temp_file_path, 'rb'),
+                'ACL'   => 'public-read'
+           ));
+          
+            // Print the URL to the object.
+          } catch (S3Exception $e) {
+              echo $e->getMessage() . "\n";
+          }
+          unlink($temp_file_path);
+          $user_image = $_FILES['image']['name'];
+          $user_image_tmp = $_FILES['image']['tmp_name'];
+        }else{
+          $user_image = $user_image_1;
+        }
+      
+      $user_firstname = $_POST['user_firstname'];
+      $user_lastname = $_POST['user_lastname'];
+      $user_email = $_POST['email'];
+      $user_password = $_POST['password'];
+      
+      if(!empty($username) && !empty($user_email) && !empty($user_password)){
+          $query = "SELECT randSalt FROM users";
+          $select_randsalt_query = mysqli_query($connection, $query);
+          confirm($select_randsalt_query);
+          
+          $row = mysqli_fetch_array($select_randsalt_query);
+          $salt = $row['randSalt'];
+          $hashed_password = crypt($user_password, $salt);
+          
+          $query = "UPDATE users SET username = '{$username}', user_firstname = '{$user_firstname}', user_lastname = '{$user_lastname}', ";
+          $query .= "user_email = '{$user_email}', user_password = '{$hashed_password}', user_image = '{$user_image}' "; 
+          $query .= "WHERE user_id = {$user_id} ";
+          
+          $update_sub_user = mysqli_query($connection, $query);
+          
+          confirm($update_sub_user);
+          
+          $_SESSION['username'] = $username;
+          sleep(3);
+          return 1;
+      }else{
+          sleep(3);
+          return 2;
+      }
+    }else{
+      sleep(3);
+      return 3;
+    }
+  }
+}
+
 //=======================================================
 
 function login(){

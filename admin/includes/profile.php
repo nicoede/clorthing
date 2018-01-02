@@ -3,6 +3,10 @@ include "admin_header.php";
 include "admin_navigation.php";
 include "../../core/init.php";
 include "../../includes/functions.php";
+require '../../vendor/autoload.php';
+include "../../modals/m_update_suc.php";
+include "../../modals/m_registration_usernot.php";
+include "../../modals/m_registration_error.php";
 session_start();
 ?>
 
@@ -18,6 +22,7 @@ session_start();
     $user_lastname = $row['user_lastname'];
     $user_email = $row['user_email'];
   }
+  $user_image_1 = $user_image;
 ?>
 
 <div class="col-xs-6 col-xs-offset-3">
@@ -57,7 +62,7 @@ session_start();
             
             <input type="submit" name="update_profile" id="btn-login" class="btn btn-custom btn-lg btn-block updateUser" style="background-color: black; color:white;" value="Update">
         </form>
-       <?php $return = update_user($user_id); ?>
+       <?php $return = update_user_adm($user_id, $user_image_1);?>
     </div>
 </div> <!-- /.col-xs-12 -->
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -68,7 +73,7 @@ session_start();
     var check = <?php echo $return; ?>;
     
     if(check == 1){
-      $('#register_user_modal_id').modal('show');
+      $('#profile_updated_modal_id').modal('show');
     }
     
     if(check == 2){

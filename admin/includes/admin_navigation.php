@@ -1,7 +1,12 @@
-<?php session_start(); ?>
+<?php 
+include "../../core/init.php";
+session_start(); ?>
 
 <?php
-$userimage = $_SESSION['user_image'];
+$query = "SELECT user_image FROM users WHERE username = '{$_SESSION['username']}'";
+$query_result = mysqli_query($connection, $query);
+$row = mysqli_fetch_assoc($query_result);
+$userimage = $row['user_image'];
 ?>
 
 <nav id="p_nav" class="navbar navbar-inverse navbar-fixed-top">
@@ -35,7 +40,11 @@ $userimage = $_SESSION['user_image'];
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo "<img height='36' style='margin-right: 5px; margin-top: -10px; margin-bottom: -10px;' src='https://s3-ap-southeast-1.amazonaws.com/nicoedeimages/clothing/{$userimage}' alt='image'>"; ?><?php echo $_SESSION['username']; ?> </b> <b class="caret" style="color:#999;"></b></a>
               <ul class="dropdown-menu">
                   <li>
+                    <?php if($_SESSION['user_role'] == 'Admin'){ ?>
                       <a href="profile.php"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    <?php }elseif($_SESSION['user_role'] == 'Subscriber'){ ?>
+                      <a href="../../profile.php"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    <?php } ?>
                   </li>
                   <li class="divider"></li>
                   <li>

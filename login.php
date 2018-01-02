@@ -25,7 +25,7 @@ include "modals/m_login_fail.php";
                             <input type="password" name="password" id="key" class="form-control" placeholder="Password:">
                             <?php echo "<p class='text-danger'>$errPassword</p>";?>
                         </div>
-                        <a style="color: white;" href="mailto:">Forgot your password?</a>
+                        <a style="color: white;" href="forgot_password.php">Forgot your password?</a>
                         <input type="submit" name="login" id="btn-login" class="btn btn-custom btn-lg btn-block logIn" style="margin-top: 10px; background-color: black; color:white;" value="Login">
                     </form>
                      <?php $return = login(); ?>

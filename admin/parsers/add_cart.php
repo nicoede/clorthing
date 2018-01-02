@@ -1,6 +1,5 @@
 <?php
 include '../../core/init.php';
-include '../../includes/cfg.php';
 session_start();
 
 $product_id = mysqli_real_escape_string($connection, $_POST['product_id']);

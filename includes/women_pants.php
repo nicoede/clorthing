@@ -1,48 +1,8 @@
-<?php include "header.php" ;?>
-<?php include "../core/init.php"; ?>
-
-<nav id="p_nav" class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: -20px;">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-    	<span class="icon-bar"></span>
-    	<span class="icon-bar"></span>
-    	<span class="icon-bar"></span>                        
-      </button>
-      <a class="active navbar-brand" href="../index.php" >Nico's Boutique</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul id="ul_menu" class="nav navbar-nav">
-      <?php
-      $categories_query = "SELECT * FROM categories WHERE categories_parent = 0";
-      $categories_query_result = mysqli_query($connection, $categories_query);
-      while($row = mysqli_fetch_assoc($categories_query_result)){
-        $parent_id = $row['categories_id'];
-        $category = $row['categories_category'];
-        
-        $child_query = "SELECT * FROM categories WHERE categories_parent = $parent_id ORDER BY categories_category";
-        $child_query_result = mysqli_query($connection, $child_query);
-      ?>  
-    	<li class="dropdown">
-    	    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $category; ?><span class="caret"></span></a>
-    	    <ul class="dropdown-menu" role="menu">
-    	      <?php while($row2 = mysqli_fetch_assoc($child_query_result)){ 
-    	              $categories2 = $row2['categories_category'];
-    	      ?>
-    	        
-    	        <li><a href="<?php echo strtolower($category); ?>_<?php echo strtolower($categories2); ?>.php#<?php echo strtolower($categories2); ?>"><?php echo $categories2; ?></a></li>
-    	      <?php } ?>
-    	    </ul>
-    	    
-    	</li>
-    	<?php } ?>
-    	
-      </ul>
-      <ul class="nav navbar-nav navbar-right" style="margin-right: 20px;">
-        <li><a href="../signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="../login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-</nav>
+<?php
+include "header.php";
+include "../core/init.php"; 
+include "navigation_inc.php";
+?>
 
   <section id="home">
     <div id="headerWrapper">

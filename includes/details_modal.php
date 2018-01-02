@@ -1,7 +1,9 @@
 <?php
+include "../modals/m_future_error.php";
 include "../core/init.php";
 include "cfg.php";
 session_start();
+
 
 $product_id = $_POST['id'];
 $query = "SELECT * FROM products WHERE products_id = $product_id";
@@ -69,7 +71,7 @@ $size_array = explode(',', $size_string);
                 <div class="modal-footer">
                     <button class="btn btn-default" onclick="closeModal()">Close</button>
                     <?php if($_SESSION['username'] != ''){ ?>
-                      <button class="btn btn-primary" onclick='add_to_cart(); return false'><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
+                      <button class="btn btn-primary futureFunction" onclick='add_to_cart(); return false'><span class="glyphicon glyphicon-shopping-cart"></span>Add To Cart</button>
                     <?php } ?>
                 </div>
             </div>
@@ -95,12 +97,12 @@ $size_array = explode(',', $size_string);
         return;
       }else{
         jQuery.ajax({
-        	//url : '/admin/parsers/add_cart.php',
-        	method : 'post',
-        	data : data,
-        	success : function(){
-        	    location.reload();
-        	},
+        // 	//url : '/admin/parsers/add_cart.php',
+        // 	method : 'post',
+        // 	data : data,
+        // 	success : function(){
+        // 	    //location.reload();
+        // 	},
         	error : function(){
         		alert('This function will be available soon! ');
   	      }
@@ -120,5 +122,11 @@ $size_array = explode(',', $size_string);
   	  jQuery('#details-modal').remove();
     },500);
   }
+  
+  $(document).ready(function(){
+    $(".futureFunction").on('click', function(){
+      $('#future_modal_id').modal('show');
+    });
+  });
 </script>
 <?php echo ob_get_clean(); ?>

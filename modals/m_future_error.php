@@ -1,20 +1,19 @@
 <!-- Modal -->
-<div id="register_user_modal_id" class="modal fade" role="dialog">
+<div id="future_modal_id" class="modal fade" role="dialog" style="z-index: 9999;">
   <div class="modal-dialog">
 
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Profile Creation</h4>
+        <h4 class="modal-title">Failure</h4>
       </div>
       <div class="modal-body">
-        <h3>Profile Created! Now you can Login!</h3>
+        <h3>This function will be available soon!</h3>
       </div>
       <div class="modal-footer">
-        <a href="../login.php" type="button" class="btn btn-primary">Ok</a>
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Ok</button>
       </div>
     </div>
-
   </div>
 </div>

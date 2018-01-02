@@ -1889,3 +1889,273 @@
 [01-Jan-2018 07:39:52 UTC] PHP Stack trace:
 [01-Jan-2018 07:39:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
 [01-Jan-2018 07:39:52 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:44
+[02-Jan-2018 00:35:21 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /home/ubuntu/workspace/includes/functions.php on line 543
+[02-Jan-2018 00:35:21 UTC] PHP Stack trace:
+[02-Jan-2018 00:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 00:35:48 UTC] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER) in /home/ubuntu/workspace/includes/functions.php on line 543
+[02-Jan-2018 00:35:48 UTC] PHP Stack trace:
+[02-Jan-2018 00:35:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:26:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/admin/includes/admin_navigation.php on line 5
+[02-Jan-2018 02:26:43 UTC] PHP Stack trace:
+[02-Jan-2018 02:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:26:43 UTC] PHP   2. include() /home/ubuntu/workspace/admin/includes/profile.php:3
+[02-Jan-2018 02:26:43 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/admin/includes/admin_navigation.php:5
+[02-Jan-2018 02:26:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/admin/includes/admin_navigation.php on line 6
+[02-Jan-2018 02:26:43 UTC] PHP Stack trace:
+[02-Jan-2018 02:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:26:43 UTC] PHP   2. include() /home/ubuntu/workspace/admin/includes/profile.php:3
+[02-Jan-2018 02:26:43 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/includes/admin_navigation.php:6
+[02-Jan-2018 02:26:43 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 02:26:43 UTC] PHP Stack trace:
+[02-Jan-2018 02:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:26:43 UTC] PHP   2. include() /home/ubuntu/workspace/admin/includes/profile.php:6
+[02-Jan-2018 02:26:43 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 02:26:43 UTC] PHP Stack trace:
+[02-Jan-2018 02:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:26:43 UTC] PHP   2. include() /home/ubuntu/workspace/admin/includes/profile.php:6
+[02-Jan-2018 02:27:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/admin/includes/admin_navigation.php on line 5
+[02-Jan-2018 02:27:16 UTC] PHP Stack trace:
+[02-Jan-2018 02:27:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:27:16 UTC] PHP   2. include() /home/ubuntu/workspace/admin/includes/profile.php:3
+[02-Jan-2018 02:27:16 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/admin/includes/admin_navigation.php:5
+[02-Jan-2018 02:27:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/admin/includes/admin_navigation.php on line 6
+[02-Jan-2018 02:27:16 UTC] PHP Stack trace:
+[02-Jan-2018 02:27:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:27:16 UTC] PHP   2. include() /home/ubuntu/workspace/admin/includes/profile.php:3
+[02-Jan-2018 02:27:16 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/includes/admin_navigation.php:6
+[02-Jan-2018 02:27:16 UTC] PHP Warning:  include(../s3/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/functions.php on line 469
+[02-Jan-2018 02:27:16 UTC] PHP Stack trace:
+[02-Jan-2018 02:27:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:27:16 UTC] PHP   2. update_user() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:27:16 UTC] PHP Warning:  include(): Failed opening '../s3/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/functions.php on line 469
+[02-Jan-2018 02:27:16 UTC] PHP Stack trace:
+[02-Jan-2018 02:27:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:27:16 UTC] PHP   2. update_user() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:28:40 UTC] PHP Warning:  include(../s3/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/functions.php on line 469
+[02-Jan-2018 02:28:40 UTC] PHP Stack trace:
+[02-Jan-2018 02:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:28:40 UTC] PHP   2. update_user() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:28:40 UTC] PHP Warning:  include(): Failed opening '../s3/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/functions.php on line 469
+[02-Jan-2018 02:28:40 UTC] PHP Stack trace:
+[02-Jan-2018 02:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:28:40 UTC] PHP   2. update_user() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:29:21 UTC] PHP Warning:  include(../s3/init.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/includes/functions.php on line 469
+[02-Jan-2018 02:29:21 UTC] PHP Stack trace:
+[02-Jan-2018 02:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:29:21 UTC] PHP   2. update_user() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:29:21 UTC] PHP Warning:  include(): Failed opening '../s3/init.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/includes/functions.php on line 469
+[02-Jan-2018 02:29:21 UTC] PHP Stack trace:
+[02-Jan-2018 02:29:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:29:21 UTC] PHP   2. update_user() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:29:53 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 02:29:53 UTC] PHP Stack trace:
+[02-Jan-2018 02:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:29:53 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:29:53 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:559
+[02-Jan-2018 02:29:53 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 02:29:53 UTC] PHP Stack trace:
+[02-Jan-2018 02:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:29:53 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:29:53 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:559
+[02-Jan-2018 02:33:14 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init_adm.php on line 3
+[02-Jan-2018 02:33:14 UTC] PHP Stack trace:
+[02-Jan-2018 02:33:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:33:14 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:33:14 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:559
+[02-Jan-2018 02:33:14 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init_adm.php on line 3
+[02-Jan-2018 02:33:14 UTC] PHP Stack trace:
+[02-Jan-2018 02:33:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:33:14 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:33:14 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:559
+[02-Jan-2018 02:33:38 UTC] PHP Warning:  require(../..vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init_adm.php on line 3
+[02-Jan-2018 02:33:38 UTC] PHP Stack trace:
+[02-Jan-2018 02:33:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:33:38 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:33:38 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:559
+[02-Jan-2018 02:33:38 UTC] PHP Fatal error:  require(): Failed opening required '../..vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init_adm.php on line 3
+[02-Jan-2018 02:33:38 UTC] PHP Stack trace:
+[02-Jan-2018 02:33:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 02:33:38 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 02:33:38 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:559
+[02-Jan-2018 03:10:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 28
+[02-Jan-2018 03:10:08 UTC] PHP Stack trace:
+[02-Jan-2018 03:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:10:08 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:28
+[02-Jan-2018 03:10:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 32
+[02-Jan-2018 03:10:08 UTC] PHP Stack trace:
+[02-Jan-2018 03:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:10:08 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 44
+[02-Jan-2018 03:10:08 UTC] PHP Stack trace:
+[02-Jan-2018 03:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:10:08 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:44
+[02-Jan-2018 03:11:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 28
+[02-Jan-2018 03:11:09 UTC] PHP Stack trace:
+[02-Jan-2018 03:11:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:11:09 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:28
+[02-Jan-2018 03:11:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 32
+[02-Jan-2018 03:11:09 UTC] PHP Stack trace:
+[02-Jan-2018 03:11:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:11:09 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 44
+[02-Jan-2018 03:11:09 UTC] PHP Stack trace:
+[02-Jan-2018 03:11:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:11:09 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:44
+[02-Jan-2018 03:11:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 28
+[02-Jan-2018 03:11:39 UTC] PHP Stack trace:
+[02-Jan-2018 03:11:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:11:39 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:28
+[02-Jan-2018 03:11:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 32
+[02-Jan-2018 03:11:39 UTC] PHP Stack trace:
+[02-Jan-2018 03:11:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:11:39 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 44
+[02-Jan-2018 03:11:39 UTC] PHP Stack trace:
+[02-Jan-2018 03:11:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:11:39 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:44
+[02-Jan-2018 03:12:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 35
+[02-Jan-2018 03:12:26 UTC] PHP Stack trace:
+[02-Jan-2018 03:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:12:26 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:35
+[02-Jan-2018 03:12:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 39
+[02-Jan-2018 03:12:26 UTC] PHP Stack trace:
+[02-Jan-2018 03:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:12:26 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 51
+[02-Jan-2018 03:12:26 UTC] PHP Stack trace:
+[02-Jan-2018 03:12:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:12:26 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:51
+[02-Jan-2018 03:13:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 27
+[02-Jan-2018 03:13:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:13:06 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:27
+[02-Jan-2018 03:13:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 35
+[02-Jan-2018 03:13:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:13:06 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:35
+[02-Jan-2018 03:13:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 39
+[02-Jan-2018 03:13:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:13:06 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 51
+[02-Jan-2018 03:13:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:13:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:13:06 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:51
+[02-Jan-2018 03:14:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 35
+[02-Jan-2018 03:14:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:14:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:14:06 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:35
+[02-Jan-2018 03:14:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 39
+[02-Jan-2018 03:14:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:14:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:14:06 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 51
+[02-Jan-2018 03:14:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:14:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:14:06 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:51
+[02-Jan-2018 03:17:51 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 3
+[02-Jan-2018 03:17:51 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:51 UTC] PHP   2. include() /home/ubuntu/workspace/admin/parsers/add_cart.php:2
+[02-Jan-2018 03:17:51 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 3
+[02-Jan-2018 03:17:51 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:51 UTC] PHP   2. include() /home/ubuntu/workspace/admin/parsers/add_cart.php:2
+[02-Jan-2018 03:17:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 28
+[02-Jan-2018 03:17:51 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:51 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:28
+[02-Jan-2018 03:17:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 32
+[02-Jan-2018 03:17:51 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:51 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 44
+[02-Jan-2018 03:17:51 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:51 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:44
+[02-Jan-2018 03:17:58 UTC] PHP Warning:  include(includes/cfg.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/core/init.php on line 3
+[02-Jan-2018 03:17:58 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:58 UTC] PHP   2. include() /home/ubuntu/workspace/admin/parsers/add_cart.php:2
+[02-Jan-2018 03:17:58 UTC] PHP Warning:  include(): Failed opening 'includes/cfg.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/core/init.php on line 3
+[02-Jan-2018 03:17:58 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:58 UTC] PHP   2. include() /home/ubuntu/workspace/admin/parsers/add_cart.php:2
+[02-Jan-2018 03:17:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 20
+[02-Jan-2018 03:17:58 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:58 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:20
+[02-Jan-2018 03:17:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 28
+[02-Jan-2018 03:17:58 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:58 UTC] PHP   2. mysqli_fetch_assoc() /home/ubuntu/workspace/admin/parsers/add_cart.php:28
+[02-Jan-2018 03:17:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 32
+[02-Jan-2018 03:17:58 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:58 UTC] PHP Warning:  array_merge(): Argument #2 is not an array in /home/ubuntu/workspace/admin/parsers/add_cart.php on line 44
+[02-Jan-2018 03:17:58 UTC] PHP Stack trace:
+[02-Jan-2018 03:17:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/parsers/add_cart.php:0
+[02-Jan-2018 03:17:58 UTC] PHP   2. array_merge() /home/ubuntu/workspace/admin/parsers/add_cart.php:44
+[02-Jan-2018 03:36:27 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:28 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:28 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:28 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:36:28 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:28 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:28 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:28 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:36:32 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:32 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:32 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:32 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:36:32 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:32 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:32 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:32 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:36:40 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:40 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:40 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:40 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:36:40 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:40 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:40 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:40 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:36:47 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:47 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:47 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:47 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:36:47 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:36:47 UTC] PHP Stack trace:
+[02-Jan-2018 03:36:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:36:47 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:36:47 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:37:00 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:37:00 UTC] PHP Stack trace:
+[02-Jan-2018 03:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:37:00 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:37:00 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:37:00 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:37:00 UTC] PHP Stack trace:
+[02-Jan-2018 03:37:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:37:00 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:37:00 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:37:06 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:37:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:37:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:37:06 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:37:06 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:37:06 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init.php on line 3
+[02-Jan-2018 03:37:06 UTC] PHP Stack trace:
+[02-Jan-2018 03:37:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/products.php:0
+[02-Jan-2018 03:37:06 UTC] PHP   2. new_product() /home/ubuntu/workspace/admin/includes/products.php:326
+[02-Jan-2018 03:37:06 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:140
+[02-Jan-2018 03:39:29 UTC] PHP Warning:  require(../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/s3/init_adm.php on line 3
+[02-Jan-2018 03:39:29 UTC] PHP Stack trace:
+[02-Jan-2018 03:39:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 03:39:29 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 03:39:29 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:563
+[02-Jan-2018 03:39:29 UTC] PHP Fatal error:  require(): Failed opening required '../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/s3/init_adm.php on line 3
+[02-Jan-2018 03:39:29 UTC] PHP Stack trace:
+[02-Jan-2018 03:39:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/admin/includes/profile.php:0
+[02-Jan-2018 03:39:29 UTC] PHP   2. update_user_adm() /home/ubuntu/workspace/admin/includes/profile.php:65
+[02-Jan-2018 03:39:29 UTC] PHP   3. include() /home/ubuntu/workspace/includes/functions.php:563

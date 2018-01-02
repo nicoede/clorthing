@@ -55,7 +55,11 @@ if($_SESSION['user_role'] != 'Admin'){
              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo "<img height='36' style='margin-right: 5px; margin-top: -10px; margin-bottom: -10px;' src='https://s3-ap-southeast-1.amazonaws.com/nicoedeimages/clothing/{$userimage}' alt='image'>"; ?><?php echo $_SESSION['username']; ?> </b> <b class="caret" style="color:#999;"></b></a>
               <ul class="dropdown-menu">
                   <li>
+                    <?php if($_SESSION['user_role'] == 'Admin'){ ?>
                       <a href="includes/profile.php"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    <?php }elseif($_SESSION['user_role'] == 'Subscriber'){ ?>
+                      <a href="../includes/profile.php"><i class="fa fa-fw fa-user"></i> Profile</a>
+                    <?php } ?>
                   </li>
                   <li class="divider"></li>
                   <li>
