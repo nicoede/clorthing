@@ -13,8 +13,8 @@ include "includes/cfg.php";
         <div id="fore-flower"></div>
     </div>
 </section>
-    
-<section id="featured" style="background-color: white; ">
+<div id="featured"></div>
+<section style="background-color: white; ">
     <div class="center">
         <div class="container-fluid">
             <div class="col-md-2"></div>

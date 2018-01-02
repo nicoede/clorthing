@@ -17,7 +17,7 @@ $userimage = $row['user_image'];
       	<span class="icon-bar"></span>
       	<span class="icon-bar"></span>                        
       </button>
-      <a class="active navbar-brand" href="../index.php" style="margin-top: 7px;">Nico's Boutique</a>
+      <a class="active navbar-brand" href="../index.php">Nico's Boutique</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul id="ul_menu" class="nav navbar-nav">
@@ -31,20 +31,20 @@ $userimage = $row['user_image'];
         $child_query = "SELECT * FROM categories WHERE categories_parent = $parent_id ORDER BY categories_category";
         $child_query_result = mysqli_query($connection, $child_query);
       ?>  
-    	<li class="dropdown" style="margin-top: 6px;">
+    	<li class="dropdown">
     	    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><?php echo $category; ?><span class="caret"></span></a>
     	    <ul class="dropdown-menu" role="menu">
     	      <?php while($row2 = mysqli_fetch_assoc($child_query_result)){ 
     	              $categories2 = $row2['categories_category'];
     	      ?>
     	        
-    	        <li style="margin-top: 7px;"><a href="<?php echo strtolower($category); ?>_<?php echo strtolower($categories2); ?>.php#<?php echo strtolower($categories2); ?>"><?php echo $categories2; ?></a></li>
+    	        <li><a href="<?php echo strtolower($category); ?>_<?php echo strtolower($categories2); ?>.php#<?php echo strtolower($categories2); ?>"><?php echo $categories2; ?></a></li>
     	      <?php } ?>
     	    </ul>
     	    
     	</li>
     	<?php } ?>
-    	
+    	<li><a href="../index.php#featured">Featured</a><li>
       </ul>
       
       <?php if($_SESSION['username'] == ''){ ?>
@@ -58,7 +58,7 @@ $userimage = $row['user_image'];
       ?>
       <ul class="nav navbar-nav navbar-right" style="margin-right: 10px;">
         <?php if($_SESSION['user_role'] == 'Admin'){ ?>
-          <li style="margin-top: 7px;"><a href="admin/">ADMIN</a><li>
+          <li><a href="admin/">ADMIN</a><li>
             <?php } ?>
           <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo "<img height='36' style='margin-right: 5px; margin-top: -10px; margin-bottom: -10px;' src='https://s3-ap-southeast-1.amazonaws.com/nicoedeimages/clothing/{$userimage}' alt='image'>"; ?><?php echo $_SESSION['username']; ?> </b> <b class="caret" style="color:#999;"></b></a>

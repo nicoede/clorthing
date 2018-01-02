@@ -43,7 +43,9 @@ $userimage = $row['user_image'];
     	    </ul>
     	    
     	</li>
+    	
     	<?php } ?>
+      <li><a href="#featured">Featured</a><li>
     	
       </ul>
       
