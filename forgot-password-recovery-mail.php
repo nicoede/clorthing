@@ -27,7 +27,7 @@ function sendmail($username1, $user_email1){
 	
 	//Content
 	                                 // Set email format to HTML
-	$mail->Subject = "Nico's Boutique Forgot Password Recovery";
+	$mail->Subject = "Nico's Boutique - Password Recovery";
 	
 	$mail->MsgHTML($emailBody);
 	$mail->isHTML(true); 
